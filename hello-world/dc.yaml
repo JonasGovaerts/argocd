@@ -26,8 +26,7 @@ spec:
         deploymentconfig: httpd-ex
     spec:
       containers:
-      - image: httpd-ex:latest
-        imagePullPolicy: Always
+      - imagePullPolicy: Always
         name: httpd-ex
         ports:
         - containerPort: 8080
