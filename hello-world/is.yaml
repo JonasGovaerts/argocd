@@ -1,0 +1,10 @@
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  labels:
+    app: httpd-ex
+  name: httpd-ex
+  namespace: test
+spec:
+  lookupPolicy:
+    local: false
