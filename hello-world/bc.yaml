@@ -27,6 +27,6 @@ spec:
         namespace: openshift
     type: Source
   triggers:
-  - imageChange:
-    type: ImageChange
   - type: ConfigChange
+  - imageChange: {}	
+    type: ImageChange
